@@ -1,0 +1,32 @@
+{
+  "name": "s-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "s-cli init test"
+  },
+  "bin": {
+    "s-cli": "./bin/s-cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^6.2.0",
+    "figlet": "^1.5.0",
+    "git-pull-or-clone": "^2.0.1",
+    "open": "^7.3.0",
+    "ora": "^5.1.0",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/commander": "^2.12.2",
+    "@types/node": "^14.14.6",
+    "@types/nunjucks": "^3.1.3",
+    "@types/ora": "^3.2.0"
+  }
+}
