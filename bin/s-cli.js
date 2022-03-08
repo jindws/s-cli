@@ -1,7 +1,12 @@
 #!/usr/bin/env node
-const program = require("commander");
-const init = require("../lib/init");
-const refresh = require("../lib/refresh");
+import "regenerator-runtime/runtime.js";
+
+import { Command } from "commander";
+
+import init from "../lib/init.js";
+import refresh from "../lib/refresh.js";
+
+const program = new Command();
 
 program.version(require("../package.json").version);
 
